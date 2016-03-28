@@ -1,0 +1,11 @@
+The remote connections provide the same functionality as the local ones, except that a local terminal must be used for the initial configuration. The remote terminals are connected to the router through TELNET once the IP protocol has been enabled. See Manual ALU-Dm 702 TCP-IP Configuration for further information on how to enable the IP protocol. How can the router be accessed?By means of local or remote terminal it is possible to access the router and carry out the distinct processes. These processes are related to device configuration with status monitoring and related statistics. But can messages be received?. Yes! Messages can also be received on any events produced. 
+
+During device booting, information will be displayed to the user on the configuration of the device hardware and software and the system startup progress. Once this booting stage has completed, the user is asked to initiate a session by pressing any key. 
+
+A user and password control the access to the router local connection. By default no user is registered. In this case it will not be requested when you access the device and the first thing to appear is the welcome text and the console management prompt as shown below.
+
+Deletes a user from the user list. You can eliminate as many users as you wish except if there is only one Root user and there are other registered users. In this case, you can only delete the rest of the users as if not you cannot manage the remaining users. If you eliminate all the users except the last Root, then you can delete the latter. The system then will not request user and password in order to access the device, as there are no more users registered in the system.
+
+Is the access control to the router similar to the local mode access. Yes , indeed it is. If there are users defined and these are enabled (these enable by default when created), the
+introduction of a user and their corresponding password is requested in order to connect to the system. When the authentication is correct, the welcome text and prompt appear and you
+have access to the authenticated user permissions as indicated in the connection via local.
